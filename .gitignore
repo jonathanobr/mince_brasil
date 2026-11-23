@@ -1,0 +1,56 @@
+# Ambientes Python e caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Pastas de experimentação local e logs
+scratch/
+dev/
+*.log
+*.tmp
+
+# Dados brutos, documentos normativos (PDFs), CSVs e bases processadas pesadas
+data/raw/
+data/docs/
+data/processed/
+*.csv
+*.zip
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Saídas excluídas do repositório (SVGs, tabelas, relatórios e auditoria)
+output/figures/svg/
+output/relatorio/
+output/tables/
+output/quality_audit_report.json
+
+# Imagens PNG: publicar apenas as Figuras 1 a 5 (600 DPI)
+output/figures/png/*
+!output/figures/png/fig_01_mapa_nacional_3_classes_cimce_600dpi.png
+!output/figures/png/fig_02_mapa_concessoes_lavra_grande_porte_600dpi.png
+!output/figures/png/fig_03_mapa_classe1_prioridade_alta_600dpi.png
+!output/figures/png/fig_04_mapa_classe2_prioridade_media_600dpi.png
+!output/figures/png/fig_05_mapa_classe3_prioridade_baixa_600dpi.png
+
+# Módulos locais de etapas excluídas (tabelas, Data Paper, MCS 2026 e auditoria completa)
+src/etl_mcs_global_cimce.py
+src/build_tables.py
+src/build_data_paper.py
+src/audit_pipeline.py
+tests/test_full_atlas_local.py
+
+# Temporários Office, IDE e SO
+~$*.docx
+~$*.xlsx
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
