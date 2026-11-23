@@ -6,10 +6,10 @@
 [![Código: MIT](https://img.shields.io/badge/C%C3%B3digo-MIT-green.svg)](LICENSE)
 [![Mapas: CC BY 4.0](https://img.shields.io/badge/Mapas-CC%20BY%204.0-lightgrey.svg)](output/LICENSE)
 
-Geointeligência e cartografia científica em projeção equivalente **IBGE Albers (`SIRGAS 2000` / `GRS80`)** para os **27 minerais críticos e estratégicos** da **Política Nacional de Minerais Críticos e Estratégicos (PNMCE)** — Lei nº 15.506/2026, Decretos nº 13.118 e nº 13.146/2026 e deliberação do Pleno do CIMCE (05/11/2026).
+Mapeamento dos **27 minerais críticos e estratégicos** definidos pela Política Nacional de Minerais Críticos e Estratégicos (PNMCE — Lei nº 15.506/2026, Decretos nº 13.118 e nº 13.146/2026 e Pleno do CIMCE de 05/11/2026), gerado a partir de dados públicos da ANM/SIGMINE e do IBGE em projeção equivalente Albers (SIRGAS 2000).
 
 > [!NOTE]
-> Este repositório (`mince_brasil`, pasta local `minerais_criticos_brasil`) disponibiliza o código-fonte reprodutível (`src/`, `tests/`), a ontologia curada dos 27 minerais em 3 classes ([`cimce_2026_ontology.json`](data/curated/cimce_2026_ontology.json)) e a seleção publicada das **5 pranchas cartográficas nacionais a 600 DPI** (`fig_01` a `fig_05`). Dados brutos pesados não são versionados no Git e podem ser baixados diretamente das fontes oficiais governamentais via `src/fetch_sources.py`.
+> Este repositório (`mince_brasil`, pasta local `minerais_criticos_brasil`) reúne um **excerto cartográfico (snapshot nov/2026)** com **5 mapas nacionais a 600 DPI** (`fig_01` a `fig_05`), a lista estruturada dos 27 minerais em 3 classes ([`cimce_2026_ontology.json`](data/curated/cimce_2026_ontology.json)) e o código para baixar as bases oficiais via `src/fetch_sources.py` e reproduzir as figuras. Dados brutos pesados não são versionados no Git.
 
 ---
 
@@ -112,10 +112,11 @@ pytest -v
 
 ```bibtex
 @software{RamosOliveira2026MinceBrasil,
-  author = {Ramos Oliveira, Jonathan},
-  title  = {mince\_brasil: Cartografia e Geointeligência dos 27 Minerais Críticos e Estratégicos do Brasil (PNMCE / CIMCE 2026)},
-  year   = {2026},
-  url    = {https://github.com/jonathanobr/mince_brasil},
-  note   = {Código sob licença MIT; mapas em output/figures/ sob CC BY 4.0}
+  author  = {Ramos Oliveira, Jonathan},
+  title   = {mince\_brasil: Mapas dos 27 Minerais Críticos e Estratégicos do Brasil (excerto cartográfico — snapshot nov/2026)},
+  version = {1.0.0},
+  year    = {2026},
+  url     = {https://github.com/jonathanobr/mince_brasil},
+  note    = {Código sob licença MIT; mapas em output/figures/ sob CC BY 4.0}
 }
 ```

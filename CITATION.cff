@@ -1,7 +1,9 @@
 cff-version: 1.2.0
-title: "mince_brasil — Minerais Críticos e Estratégicos do Brasil (PNMCE / CIMCE 2026)"
+title: "mince_brasil: Mapas dos 27 Minerais Críticos e Estratégicos do Brasil (excerto cartográfico — snapshot nov/2026)"
 message: "Se você utilizar o código ou os mapas deste repositório, cite utilizando os metadados abaixo."
 type: software
+version: "1.0.0"
+date-released: 2026-11-23
 authors:
   - family-names: "Ramos Oliveira"
     given-names: "Jonathan"
@@ -21,10 +23,11 @@ keywords:
   - ibge-albers
 preferred-citation:
   type: software
-  title: "mince_brasil: Cartografia e Geointeligência dos 27 Minerais Críticos e Estratégicos do Brasil (PNMCE / CIMCE 2026)"
+  title: "mince_brasil: Mapas dos 27 Minerais Críticos e Estratégicos do Brasil (excerto cartográfico — snapshot nov/2026)"
   authors:
     - family-names: "Ramos Oliveira"
       given-names: "Jonathan"
+  version: "1.0.0"
   year: 2026
   url: "https://github.com/jonathanobr/mince_brasil"
-  notes: "Código-fonte sob licença MIT; mapas prontos em output/figures/ sob licença CC BY 4.0."
+  notes: "Excerto cartográfico — snapshot nov/2026. Código-fonte sob licença MIT; mapas prontos em output/figures/ sob licença CC BY 4.0."

@@ -1,7 +1,7 @@
 [project]
 name = "mince-brasil"
 version = "1.0.0"
-description = "Cartografia e geointeligencia dos 27 Minerais Criticos e Estrategicos do Brasil (PNMCE / CIMCE 2026) a partir de dados publicos da ANM/SIGMINE e IBGE."
+description = "Mapeamento dos 27 Minerais Criticos e Estrategicos do Brasil (PNMCE / CIMCE 2026) a partir de dados publicos da ANM/SIGMINE e IBGE (excerto cartografico — snapshot nov/2026)."
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
